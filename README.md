@@ -1,40 +1,29 @@
-# Jekyll-Bootstrap
+![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
+==============
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog -- by developer and design hacker [Nii](https://twitter.com/_nadjetey).
 
-## Usage
+## Demo
+See wangana theme in use [here](http://nadjetey.github.io)
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+## Installation & Customization
+[Download](https://github.com/nadjetey/wangana/archive/master.zip) this theme and follow the instructions on [Github pages](http://pages.github.com/) to use. Wangana theme works out of the box. To customize it, change the value pairs in the '_config.yml' file. That's where you can add your social links, Google analytics, disqus comments, and others.
 
-## Version
+## Copyright
+The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+## Contact
+I'd love to hear from you, [send me a tweet](https://twitter.com/_nadjetey). Feel free to [open issues](https://github.com/nadjetey/wangana/issues/new) if you run into trouble or have suggestions. Pull Requests always welcome.
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+## Version 2.0
++ Redesign of user interface(UI)
++ Better image embedding integration
++ Navigation improvements
++ Removed dependency on jquery.cookie.js
++ Included support for automatically updating fuzzy timestamps (jquery.timeago.js)
 
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+## Version 2.5 (Currently available)
+What's new
++ SEO optimized
++ Improved design for better UX
+![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana_screenshot_index.png)
