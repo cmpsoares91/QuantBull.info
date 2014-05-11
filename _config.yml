@@ -1,12 +1,12 @@
-name: QuantBull.info | Keep informed about the adventures in the development of the QuantBull Project
+name: QuantBull.info | Keep informed about the adventurous development of the QuantBull Project!
 markdown: redcarpet
 pygments: true
 
 permalink: /:year/:month/:title/
 owner:
     name: Carlos Soares
-    twitter: cmpsoares91
-    github: cmpsoares
+    twitter: cmpsoares
+    github: cmpsoares91
     disqus_shortname: quantbullinfo
     
 ga_id: UA-50856212-1
