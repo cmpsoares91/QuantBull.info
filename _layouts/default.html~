@@ -17,15 +17,11 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="{{site.url}}/tags.html">Tags</a></li>
                     <li><a href="{{site.url}}/search.html">Search</a></li>
-		    <li><a href="{{site.url}}/about">About</a></li>
-		    <p class="separator">Support us</p>
-		    <li><a href="/">Paypal</a></li>
-		    <li><script data-gittip-username="CMPSoares" data-gittip-widget="button" src="//gttp.co/v1.js"></script></li>
+		    <li><a href="{{site.url}}/about.html">About</a></li>
                     <p class="separator">Social</p>
                     <li><a href="https://github.com/{{site.owner.github}}">Github</a></li>
                     <li><a href="https://twitter.com/{{site.owner.twitter}}">Twitter</a></li>
                 </ul>
-		<!--- Add adsense --->
             </nav>
             <header id="menu" role="banner">
                 <p class="menu-title">Menu</p>
