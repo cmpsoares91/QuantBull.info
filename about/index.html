@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: About
 ---
 <div class="col-sm-12">
@@ -8,6 +8,10 @@ title: About
   </div>
   <div>
       <!-- insert markdown --->
+      {% capture about-page %}
+      	{% include about.md %}
+      {% endcapture %}
+	{{ about-page | markdownify }}
   </div>
     
 </div>
