@@ -1,0 +1,12 @@
+---
+layout: post
+title: "About the QuantBull Project"
+date:   2014-05-18
+tags: QuantBull, about
+comments: true
+---
+
+{% capture about_content %}  
+    {% include about.md %}  
+  {% endcapture %}  
+  {{ about_content | unindent | markdownify }}

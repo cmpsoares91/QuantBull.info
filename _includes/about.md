@@ -1,3 +1,0 @@
-About {{site.name}}
-===
-This is a test about page...
