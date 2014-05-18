@@ -4,160 +4,248 @@
 
 <!-- Wrap all page content here -->
 <div id="wrap">
-	<!-- Begin MailChimp Signup Form -->
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		#mc_embed_signup{position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,.8);display:none;z-index:10000; }
-		#mc_embed_signup form{position:fixed; top:10%; left:50%; width:50%; margin-left:-25%; font:normal 100% Helvetica,Arial,sans-serif; font-size:14px; border-radius:4px; border:none; padding:10px 20px; background-color:#fff; color:#000; text-align:left;max-height:400px;overflow-y:auto;overflow-x:hidden;}
-		#mc_embed_signup a.mc_embed_close{background:transparent url(http://downloads.mailchimp.com/img/closebox.png) no-repeat; display:block; height:30px; width:30px; text-indent:-999em; position:absolute; top:-10px; right:-10px; display:none; }
-		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   	We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-	</style>
-	<div id="mc_embed_signup">
+    <div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+            <!-- side bar -->
+            <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
+                <header id="menu" role="banner">
+                    <p class="menu-title">Close</p>
+                    <a href="#nav" class="close-btn">Close</a>
+                </header>
+                <ul class="sidebar">
+                    <p class="separator">Navigation</p>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{site.url}}/tags.html">Tags</a></li>
+                    <li><a href="{{site.url}}/search.html">Search</a></li>
+		    <li><a href="{{site.url}}/about">About</a></li>
+		    <p class="separator">Support us</p>
+		    <li>
+		    	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="62SJ9GAZ4ZDVE">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		    </li>
+		    <li><script data-gittip-username="CMPSoares" data-gittip-widget="button" src="//gttp.co/v1.js"></script></li>
+                    <p class="separator">Social</p>
+                    <li><a href="https://github.com/{{site.owner.github}}">Github</a></li>
+                    <li><a href="https://twitter.com/{{site.owner.twitter}}">Twitter</a></li>
+                    <li>
+                    	<!-- Begin MailChimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+				/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   			We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+			</style>
+			<div id="mc_embed_signup">
+				<form action="http://quantbull.us8.list-manage2.com/subscribe/post?u=cb5c6104564330119c874776e&amp;id=5b3e026d67" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_cb5c6104564330119c874776e_5b3e026d67" tabindex="-1" value=""></div>
+					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</form>
+			</div>
+			<!--End mc_embed_signup-->
+		    </li>
+		    <p class="separator">
+		    	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- nav-block-ads -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:180px;height:150px"
+			     data-ad-client="ca-pub-9080200840721283"
+			     data-ad-slot="5339684659"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		   </p>
+                </ul>
+            </nav>
+            <header id="menu" role="banner">
+                <p class="menu-title">Menu</p>
+                <a href="#nav" class="menu-btn">navigation</a>
+            </header>
+            <!-- Content -->
+            <div class="content col-sm-10">
+                <div class="row strip">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-center blog-meta">
+    	<div>
+        	<!--- Add adsense --->
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- main-banner-ads -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:728px;height:90px"
+			     data-ad-client="ca-pub-9080200840721283"
+		     	     data-ad-slot="6816417857">
+		     	</ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+        </div>
+        Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/nadjetey/wangana">Wangana</a>
+    </footer>
+</div>
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,.8);display:none;z-index:10000; }
+	#mc_embed_signup form{position:fixed; top:10%; left:50%; width:50%; margin-left:-25%; font:normal 100% Helvetica,Arial,sans-serif; font-size:14px; border-radius:4px; border:none; padding:10px 20px; background-color:#fff; color:#000; text-align:left;max-height:400px;overflow-y:auto;overflow-x:hidden;}
+	#mc_embed_signup a.mc_embed_close{background:transparent url(http://downloads.mailchimp.com/img/closebox.png) no-repeat; display:block; height:30px; width:30px; text-indent:-999em; position:absolute; top:-10px; right:-10px; display:none; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+   	We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
 	<form action="http://quantbull.us8.list-manage1.com/subscribe/post?u=cb5c6104564330119c874776e&amp;id=5b3e026d67" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		<h2>Subscribe to our mailing list</h2>
-	<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-	<div class="mc-field-group">
-		<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-	</div>
-	<div class="mc-field-group">
-		<label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-		<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-	</div>
-	<div class="mc-field-group">
-		<label for="mce-LNAME">Last Name </label>
-		<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-	</div>
-	<div class="mc-field-group size1of2">
-		<label for="mce-MMERGE3">Phone Number </label>
-		<input type="text" name="MMERGE3" class="" value="" id="mce-MMERGE3">
-	</div>
-	<a href="#" id="mc_embed_close" class="mc_embed_close">Close</a>
-	<div id="mce-responses" class="clear">
+		<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+		<div class="mc-field-group">
+			<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+		</div>
+		<div class="mc-field-group">
+			<label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
+			<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+		</div>
+		<div class="mc-field-group">
+			<label for="mce-LNAME">Last Name </label>
+			<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+		</div>
+		<div class="mc-field-group size1of2">
+			<label for="mce-MMERGE3">Phone Number </label>
+			<input type="text" name="MMERGE3" class="" value="" id="mce-MMERGE3">
+		</div>
+		<a href="#" id="mc_embed_close" class="mc_embed_close">Close</a>
+		<div id="mce-responses" class="clear">
 			<div class="response" id="mce-error-response" style="display:none"></div>
 			<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	<div style="position: absolute; left: -5000px;"><input type="text" name="b_cb5c6104564330119c874776e_5b3e026d67" tabindex="-1" value=""></div>
-	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		<div style="position: absolute; left: -5000px;"><input type="text" name="b_cb5c6104564330119c874776e_5b3e026d67" tabindex="-1" value=""></div>
+		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	</form>
-	</div>
-	<script type="text/javascript">
-		var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='phone';
-		try {
-    			var jqueryLoaded=jQuery;
-    			jqueryLoaded=true;
-		} catch(err) {
-			var jqueryLoaded=false;
-		}
-		var head= document.getElementsByTagName('head')[0];
-		if (!jqueryLoaded) {
-		    var script = document.createElement('script');
-		    script.type = 'text/javascript';
-		    script.src = '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-		    head.appendChild(script);
-		    if (script.readyState && script.onload!==null){
-		        script.onreadystatechange= function () {
-		              if (this.readyState == 'complete') mce_preload_check();
+</div>
+<script type="text/javascript">
+	var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='phone';
+	try {
+  		var jqueryLoaded=jQuery;
+    		jqueryLoaded=true;
+	} catch(err) {
+		var jqueryLoaded=false;
+	}
+	var head= document.getElementsByTagName('head')[0];
+	if (!jqueryLoaded) {
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+		head.appendChild(script);
+		if (script.readyState && script.onload!==null){
+			script.onreadystatechange= function () {
+		        	if (this.readyState == 'complete') mce_preload_check();
 		        }    
-		    }
 		}
+	}
 
-		var err_style = '';
-		try{
-		    err_style = mc_custom_error_style;
+	var err_style = '';
+	try{
+		err_style = mc_custom_error_style;
 		} catch(e){
-		    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+			err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
 		}
 		var head= document.getElementsByTagName('head')[0];
 		var style= document.createElement('style');
 		style.type= 'text/css';
 		if (style.styleSheet) {
-		  style.styleSheet.cssText = err_style;
+			style.styleSheet.cssText = err_style;
 		} else {
-		  style.appendChild(document.createTextNode(err_style));
+			style.appendChild(document.createTextNode(err_style));
 		}
 		head.appendChild(style);
 		setTimeout('mce_preload_check();', 250);
 
 		var mce_preload_checks = 0;
 		function mce_preload_check(){
-		    if (mce_preload_checks>40) return;
-		    mce_preload_checks++;
-		    try {
-		        var jqueryLoaded=jQuery;
-		    } catch(err) {
-		        setTimeout('mce_preload_check();', 250);
-		        return;
-		    }
-		    var script = document.createElement('script');
-		    script.type = 'text/javascript';
-		    script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
-		    head.appendChild(script);
-		    try {
-		        var validatorLoaded=jQuery("#fake-form").validate({});
-		    } catch(err) {
-		        setTimeout('mce_preload_check();', 250);
-		        return;
-		    }
-		    mce_init_form();
+			if (mce_preload_checks>40) return;
+			mce_preload_checks++;
+			try {
+		        	var jqueryLoaded=jQuery;
+			} catch(err) {
+		        	setTimeout('mce_preload_check();', 250);
+		        	return;
+		    	}
+		    	var script = document.createElement('script');
+		    	script.type = 'text/javascript';
+		    	script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+		    	head.appendChild(script);
+		    	try {
+		        	var validatorLoaded=jQuery("#fake-form").validate({});
+		    	} catch(err) {
+		        	setTimeout('mce_preload_check();', 250);
+		        	return;
+		    	}
+		    	mce_init_form();
 		}
 		function mce_init_form(){
-		    jQuery(document).ready( function($) {
-		      var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
-		      var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
-		      $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
-		      options = { url: 'http://quantbull.us8.list-manage2.com/subscribe/post-json?u=cb5c6104564330119c874776e&id=5b3e026d67&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
-		                    beforeSubmit: function(){
-		                        $('#mce_tmp_error_msg').remove();
+			jQuery(document).ready( function($) {
+		      	var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+		      	var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+		      	$("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
+		      	options = { url: 'http://quantbull.us8.list-manage2.com/subscribe/post-json?u=cb5c6104564330119c874776e&id=5b3e026d67&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+		        	beforeSubmit: function(){
+		                	$('#mce_tmp_error_msg').remove();
 		                        $('.datefield','#mc_embed_signup').each(
-		                            function(){
-		                                var txt = 'filled';
-		                                var fields = new Array();
-		                                var i = 0;
-		                                $(':text', this).each(
-		                                    function(){
-		                                        fields[i] = this;
-		                                        i++;
-		                                    });
-		                                $(':hidden', this).each(
-		                                    function(){
-		                                        var bday = false;
-		                                        if (fields.length == 2){
-		                                            bday = true;
-		                                            fields[2] = {'value':1970};//trick birthdays into having years
-		                                        }
-		                                    	if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
-		                                    		this.value = '';
-							} else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
-		                                    		this.value = '';
-							} else {
-								if (/\[day\]/.test(fields[0].name)){
-		    	                                        this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
-						        } else {
-		    	                                        this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
-			                                       }
-			                                    }
-		                                    });
-                		            });
+		                        	function(){
+		                                	var txt = 'filled';
+		                                	var fields = new Array();
+		                                	var i = 0;
+		                                	$(':text', this).each(
+		                                		function(){
+		                                        		fields[i] = this;
+		                                        		i++;
+		                                    		});
+		                                	$(':hidden', this).each(
+		                                    		function(){
+		                                        		var bday = false;
+		                                        		if (fields.length == 2){
+		                                        			bday = true;
+		                                        			fields[2] = {'value':1970};//trick birthdays into having years
+		                                        		}
+		                                    			if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
+		                                    				this.value = '';
+									} else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
+		                                    				this.value = '';
+									} else {
+										if (/\[day\]/.test(fields[0].name)){
+		    	                                        			this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
+						        			} else {
+		    	                                        			this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+			                                       			}
+			                                    		}
+		                                    		});
+                		            		});
         			         $('.phonefield-us','#mc_embed_signup').each(
-		                            function(){
-		                                var fields = new Array();
-		                                var i = 0;
-		                               $(':text', this).each(
-		                                    function(){
-		                                        fields[i] = this;
-		                                        i++;
-                		                    });
+		                         	function(){
+		                                	var fields = new Array();
+		                                	var i = 0;
+		                               		$(':text', this).each(
+		                                    		function(){
+		                                        		fields[i] = this;
+		                                        		i++;
+                		                    	});
                                 		$(':hidden', this).each(
-		                                  function(){
-                		                        if ( fields[0].value.length != 3 || fields[1].value.length!=3 || fields[2].value.length!=4 ){
-                                		    		this.value = '';
-			                                } else {
-								this.value = 'filled';
-	                                    		}
-                                    		  });
-                            			});
+		                                	function(){
+                		                        	if ( fields[0].value.length != 3 || fields[1].value.length!=3 || fields[2].value.length!=4 ){
+                                		    			this.value = '';
+			                                	} else {
+									this.value = 'filled';
+	                                    			}
+                                    			});
+                            		});
 		                        return mce_validator.form();
                 		    }, 
                 		    success: mce_success_cb
@@ -264,91 +352,5 @@ function mce_success_cb(resp){
 
 </script>
 <!--End mc_embed_signup-->
-    <div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
-            <!-- side bar -->
-            <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
-                <header id="menu" role="banner">
-                    <p class="menu-title">Close</p>
-                    <a href="#nav" class="close-btn">Close</a>
-                </header>
-                <ul class="sidebar">
-                    <p class="separator">Navigation</p>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="{{site.url}}/tags.html">Tags</a></li>
-                    <li><a href="{{site.url}}/search.html">Search</a></li>
-		    <li><a href="{{site.url}}/about">About</a></li>
-		    <p class="separator">Support us</p>
-		    <li>
-		    	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="62SJ9GAZ4ZDVE">
-				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		    </li>
-		    <li><script data-gittip-username="CMPSoares" data-gittip-widget="button" src="//gttp.co/v1.js"></script></li>
-                    <p class="separator">Social</p>
-                    <li><a href="https://github.com/{{site.owner.github}}">Github</a></li>
-                    <li><a href="https://twitter.com/{{site.owner.twitter}}">Twitter</a></li>
-                    <li>
-                    	<!-- Begin MailChimp Signup Form -->
-			<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-			<style type="text/css">
-				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-				/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   			We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-			</style>
-			<div id="mc_embed_signup">
-				<form action="http://quantbull.us8.list-manage2.com/subscribe/post?u=cb5c6104564330119c874776e&amp;id=5b3e026d67" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-					    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_cb5c6104564330119c874776e_5b3e026d67" tabindex="-1" value=""></div>
-					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</form>
-			</div>
-			<!--End mc_embed_signup-->
-		    </li>
-		    <p class="separator">
-		    	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- nav-block-ads -->
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:180px;height:150px"
-			     data-ad-client="ca-pub-9080200840721283"
-			     data-ad-slot="5339684659"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		   </p>
-                </ul>
-            </nav>
-            <header id="menu" role="banner">
-                <p class="menu-title">Menu</p>
-                <a href="#nav" class="menu-btn">navigation</a>
-            </header>
-            <!-- Content -->
-            <div class="content col-sm-10">
-                <div class="row strip">
-                    {{ content }}
-                </div>
-                <div>
-                	<!--- Add adsense --->
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- main-banner-ads -->
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:728px;height:90px"
-			     data-ad-client="ca-pub-9080200840721283"
-			     data-ad-slot="6816417857"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer text-center blog-meta">
-        Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/nadjetey/wangana">Wangana</a>
-    </footer>
-</div>
 
 {% include footer.html %}
