@@ -4,6 +4,18 @@
 
 <!-- Wrap all page content here -->
 <div id="wrap">
+    <div class="page-nav hide-on-phone" id="page-up">
+    	{% if page.next %}
+    	<a id="page-preview" href="{{ page.next.url }}">
+	    <span class="page-preview-icon glyphicon glyphicon-chevron-up pull-right"></span>
+
+        	<div class="page-preview-text">
+            		<div class="blog-meta">Next post</div>
+            		<div class="page-preview-title">{{ page.next.title }}</div>
+        	</div>
+    	</a>
+    	{% endif %}
+    </div>
     <div class="container">
         <div class="row row-offcanvas row-offcanvas-left">
             <!-- side bar -->
@@ -90,6 +102,18 @@
         </div>
         Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/nadjetey/wangana">Wangana</a>
     </footer>
+    <div class="page-nav hide-on-phone" id="page-down">
+    	{% if page.previous %}
+    	<a id="page-preview" href="{{ page.previous.url }}">
+	    <span class="page-preview-icon glyphicon glyphicon-chevron-down pull-right"></span>
+
+	        <div class="page-preview-text">
+        		<div class="blog-meta">Previous post</div>
+            		<div class="page-preview-title">{{ page.previous.title }}</div>
+        	</div>
+    	</a>
+    	{% endif %}
+    </div>
 </div>
 
 <!-- Begin MailChimp Signup Form -->
