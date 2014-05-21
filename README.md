@@ -7,7 +7,7 @@ The QuantBull Project will consist of the development of a web application, ofte
 Along the way, QuantBull.info serves as a bridge between the project and the public, opening up its academic environment to a broader one. This Repo/Blog has the purpose offering its latest news and updates along with a open issue page were users can register problems and possible enhancements they come across.
 
 ## Licensing
-### On the Website's code
+#### On the Website's code
 > The MIT License (MIT)
 > 
 > Copyright (c) 2014 Carlos Soares
@@ -30,7 +30,7 @@ Along the way, QuantBull.info serves as a bridge between the project and the pub
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 > THE SOFTWARE.
 
-### On the blog content
+#### On the blog's content
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">QuantBull.info</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.quantbull.info/" property="cc:attributionName" rel="cc:attributionURL">Carlos Soares</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/cmpsoares91/QuantBull.info/" rel="dct:source">https://github.com/cmpsoares91/QuantBull.info/</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cmpsoares91/QuantBull.info/blob/master/README.md" rel="cc:morePermissions">https://github.com/cmpsoares91/QuantBull.info/blob/master/README.md</a>.
 
 ## Contact
