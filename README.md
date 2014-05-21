@@ -7,7 +7,7 @@ The QuantBull Project will consist of the development of a web application, ofte
 Along the way, QuantBull.info serves as a bridge between the project and the public, opening up its academic environment to a broader one. This Repo/Blog has the purpose offering its latest news and updates along with a open issue page were users can register problems and possible enhancements they come across.
 
 ## Licensing
-#### On the Website's code
+#### On the website's code:
 > The MIT License (MIT)
 > 
 > Copyright (c) 2014 Carlos Soares
