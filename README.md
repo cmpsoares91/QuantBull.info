@@ -1,6 +1,6 @@
-![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) QuantBull.info - Keep informed about the QuantBull Project's Development
+![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) QuantBull.info
 ==============
-
+### Keep informed about the QuantBull Project's Development
 The QuantBull Project will consist of the development of a web application, often referred to as web app, that will be free to register and use, which provides the necessary tools for collaborative development and testing of trading and investment algorithms, and market analyses.
 
 Along the way, QuantBull.info serves as a bridge between the project and the public, opening up its academic environment to a broader one. This Repo/Blog has the purpose offering its latest news and updates along with a open issue page were users can register problems and possible enhancements they come across.
