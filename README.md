@@ -6,7 +6,7 @@ The QuantBull Project will consist of the development of a web application, ofte
 
 Along the way, QuantBull.info serves as a bridge between the project and the public, opening up its academic environment to a broader one. This Repo/Blog has the purpose offering its latest news and updates along with a open issue page were users can register problems and possible enhancements they come across.
 
-For more detailed information please check the [about page](http://www.quantbull.info/about/)
+For more detailed information please check the [about page](http://www.quantbull.info/about/).
 
 ------------------------
 ## Licensing
@@ -42,7 +42,7 @@ I'd love to hear from you, [send me a tweet](https://twitter.com/CMPSoares) or [
 
 ------------------------
 ## QuantBull.info's Changelog
-### Version 0.1
+### Version 0.1:
 + Initial implementation for testing;
 + Added licensing;
 + Edited basic info posts.
